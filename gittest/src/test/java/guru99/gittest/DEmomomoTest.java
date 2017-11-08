@@ -7,7 +7,9 @@ import org.testng.annotations.Test;
 public class DEmomomoTest {
 	@Test
 	private void pu() {
+		System.setProperty("", "");
 		WebDriver driver = new FirefoxDriver();
+		driver.get("https://googl.com");
 	}
 
 }
